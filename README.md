@@ -1,3 +1,5 @@
+##npm - licensingtest-npm
+
 Please verify this on windows.
 - remove package-lock.json file
 - set the registry to #1
@@ -7,26 +9,21 @@ Please verify this on windows.
 - change snippet from fusioncharts.com/dev to both CJS and ES6 with license key to verify
 
 
-#1.
-npm login --registry http://139.59.68.91/
 
-> npm config set registry http://139.59.68.91/
+#1.
+npm login --registry http://1.1.1.1/
+
+> npm config set registry http://1.1.1.1/
 
 #2. If parcel-bundler is not available
 npm install -g parcel-bundler
 
 > parcel index.html
 
-#3.
-https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript
 
-Verdaccio
-http://139.59.68.91/   [This link is temporary]
-
-Actual Links
-http://139.59.68.91/-/web/detail/fusioncharts/
-
+Verdaccio [change as per the IP set for verdaccio link]
+http://verdaccio.com/-/web/detail/fusioncharts/
  
-Username: admin
-Password: fc-login
-Email: sanjay.bhan@accoliteindia.com
+Username: <>
+Password: <>
+Email: sb@domain.com
