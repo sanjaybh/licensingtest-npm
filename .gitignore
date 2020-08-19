@@ -1,0 +1,10 @@
+# - restrict node_modules
+node_modules
+
+#help.txt
+
+dist
+
+service
+
+.cache

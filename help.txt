@@ -1,0 +1,32 @@
+Please verify this on windows.
+- remove package-lock.json file
+- set the registry to #1
+- run "npm install" and ensure that FusionCharts version is 3.15.8
+- install parcel #2
+- run "parcel index.html" to check
+- change snippet from fusioncharts.com/dev to both CJS and ES6 with license key to verify
+
+
+#1.
+npm login --registry http://139.59.68.91/
+
+> npm config set registry http://139.59.68.91/
+
+#2. If parcel-bundler is not available
+npm install -g parcel-bundler
+
+> parcel index.html
+
+#3.
+https://www.fusioncharts.com/dev/getting-started/plain-javascript/your-first-chart-using-plain-javascript
+
+Verdaccio
+http://139.59.68.91/   [This link is temporary]
+
+Actual Links
+http://139.59.68.91/-/web/detail/fusioncharts/
+
+ 
+Username: admin
+Password: fc-login
+Email: sanjay.bhan@accoliteindia.com
